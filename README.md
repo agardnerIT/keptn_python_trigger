@@ -17,4 +17,4 @@ print(response.status)
 ```
 
 ## Usecase #2: Send a .finished event
-See `finished_event.py`.
+See [finished_event.py](https://github.com/agardnerIT/keptn_python_trigger/blob/main/finished_event.py)
