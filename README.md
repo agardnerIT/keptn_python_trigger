@@ -3,6 +3,7 @@ Trigger Keptn Sequences from Python
 
 ## Usage
 
+## Usecase #1: Trigger a Keptn Sequence
 ```
 from keptn import Keptn
 
@@ -14,3 +15,6 @@ response = k1.trigger_sequence(sequence=KEPTN_SEQUENCE_NAME, from_source="aws_la
 response = k1.trigger_sequence(sequence=KEPTN_SEQUENCE_NAME, from_source="aws_lambda", data_block=data)
 print(response.status)
 ```
+
+## Usecase #2: Send a .finished event
+See `finished_event.py`.
